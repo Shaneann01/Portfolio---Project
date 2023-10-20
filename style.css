@@ -1,0 +1,65 @@
+body {
+  background-image: url(images.jpg);
+  background-size: cover;
+}
+.mainPage {
+  display: flex;
+  height: 100px;
+}
+
+nav {
+  width: 10%;
+}
+
+.main {
+  flex-grow: 2;
+}
+.links {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: 600px;
+  background-color: green;
+}
+
+span {
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: white;
+  width: 30%;
+  text-underline-position: below;
+}
+
+h1 {
+  text-align: center;
+}
+
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.info {
+  margin-bottom: -2%;
+  display: flex;
+  color: white;
+  align-content: baseline;
+}
+
+#mission-statement {
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+  align-content: baseline;
+}
